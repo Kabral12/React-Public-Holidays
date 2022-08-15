@@ -36,7 +36,9 @@ Live site: (https://amalitech-public-holidays.netlify.app/)
 Built with:
 
 React.js
+
 SCSS
+
 JavaScript
 
 What we learned:
@@ -46,13 +48,17 @@ The team learned how to work together particularly how to work according to a wo
 Useful Resources:
 
 Mozilla Developers Network (MDN)
+
 W3Schools
+
 Youtube videos
 
 Author:
 
 The team that built this project comprised two (2) trainees under the AmaliTech Graduate Trainee Programme;
+
 Kabral Alluekeh (kabral.alluekeh@amalitech.org) - Front End Developer Trainee
+
 Prince Asamoah (prince.asamoah@amalitech.org) - Full-Stack Developer Trainee
 
 Acknowledgement:
