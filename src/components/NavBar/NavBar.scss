@@ -1,0 +1,42 @@
+@import "../../sass/index.scss";
+
+.NavBar {
+  padding: 0 $space-3;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  border-bottom: .2rem solid $grey;
+  background-color: $white;
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 $space-1;
+
+    li {
+      list-style: none;
+      padding: $space-4 $space-7;
+
+      a {
+        font-weight: 500;
+        text-decoration: none;
+        transition-duration: .4s;
+        
+        &:link,
+        &:visited {
+          color: $black;
+        }
+  
+        &:hover {
+          font-weight: 600;
+        }
+      }
+    }
+  }
+
+  @media screen and (max-width: 800px) {
+    nav {
+      padding: 0;
+    }
+  }
+}

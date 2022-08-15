@@ -1,0 +1,12 @@
+@import "../../../sass/index.scss";
+
+.DashboardResults {
+  height: 75vh;
+  margin-top: $space-6;
+  padding: 0 $space-1;
+
+  .HolidaysList {
+    background-color: $grey;
+    height: 75vh;
+  }
+}

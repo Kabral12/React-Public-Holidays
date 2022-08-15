@@ -1,0 +1,15 @@
+@mixin button-style ($color1, $color2) {
+    color: $color1;
+    background-color: $color2;
+    
+    &:hover {
+        color: $color2;
+        outline-color: $color2;
+        background-color: transparent;
+    }
+
+    &:active {
+        color: $color1;
+        background-color: $color2;
+    }
+}

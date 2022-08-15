@@ -1,0 +1,26 @@
+@import "../../sass/index.scss";
+
+.LoginForm {
+  padding: 0 $space-6;
+  margin-top: $space-4;
+  width: 35%;
+
+  form {
+    padding: $space-6;
+    
+    .green {
+      @include button-style($white, $green);
+    }
+
+    button {
+      width: 100%;
+    }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .LoginForm {
+    margin-top: $space-6;
+    width: 100%;
+  }
+}

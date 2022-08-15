@@ -1,0 +1,19 @@
+@import "../../../sass/index.scss";
+
+.DashboardForm  {
+   display: flex;
+   justify-content: center;
+   padding: 0 $space-1;
+    div {
+      flex-basis: 100%;
+      padding: 0 $space-8;
+      margin: auto;
+    }
+    button {
+      margin: 0;
+      padding: 0;
+      height: $space-2;
+      width: 100%;
+      @include button-style($white, $green);
+    }
+}

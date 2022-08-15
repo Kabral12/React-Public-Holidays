@@ -1,0 +1,28 @@
+%container {
+    min-height: 80vh;
+    margin-top: calc($space-1 * 1.5);
+}
+
+%invalid {
+    font-size: $space-7;
+    color: red;
+}
+
+%notification {
+  color: $black;
+  padding: $space-6;
+  border-radius: calc($size-8 / 2);
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: $space-6;
+  transition-duration: 1s;
+
+  span {
+    font-weight: 500;
+    cursor: pointer;
+
+    &:hover {
+      font-weight: 700;
+    }
+  }
+}

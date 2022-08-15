@@ -1,0 +1,45 @@
+@import "../../sass/index.scss";
+
+.Homepage {
+    position: absolute;
+    top: 25vh;
+    width: 100%;
+
+  h1,
+  p {
+    text-align: center;
+    padding: 0 $space-3;
+  }
+
+  .buttons {
+    display: flex;
+    justify-content: center;
+  }
+
+  .green {
+    @include button-style($white, $green);
+  }
+
+  a.button {
+    margin: {
+      left: $space-7;
+      right: $space-7;
+    }
+  }
+
+  .Footer {
+    position: absolute;
+    bottom: -40vh;
+    width: 100%;
+  }
+}
+
+@media  screen and (max-width: 800px) {
+    .Homepage {
+      top: 15vh;
+    }
+
+    .Footer {
+      top: 65vh;
+    }
+}

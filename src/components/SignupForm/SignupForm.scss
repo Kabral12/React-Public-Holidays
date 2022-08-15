@@ -1,0 +1,23 @@
+@import "../../sass/index.scss";
+
+.SignupForm {
+  padding: 0 $space-6;
+	width: 35%;
+
+	form {
+		padding: $space-6;
+		.green {
+			@include button-style($white, $green);
+		}
+		button {
+		width: 100%;
+		}
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.SignupForm {
+		width: 100%;
+	}
+
+}

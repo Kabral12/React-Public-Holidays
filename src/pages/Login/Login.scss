@@ -1,0 +1,14 @@
+@import "../../sass/index.scss";
+
+.Login {
+  @extend %container;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: $space-2;
+  
+  h2 {
+    text-align: center;
+  }
+}
