@@ -16,11 +16,16 @@ Requirements:
 
 The team was tasked with the challenge to meet the following requirements in the project; 
 •login to the system so that I can have access to the application.
+
 •Reset my password so that I can have access to the system if I lose my password.
+
 •Choose my country, month and day so that I can know if that day of the month is a
 holiday in Ghana.
+
 •Choose "any" for either month or day so that the result is not specific to neither a day nor month so that I can know the all the holidays in the country or all the holidays in a particular month if provided.
-•Select a single day in a month to see all the holidays for all the countries
+
+•Select a single day in a month to see all the holidays for all the countries.
+
 •Log out of the system
 
 Links:
